@@ -8,9 +8,9 @@ float p2y = 400;
 float posx = 500;
 float posy = 500;
 //background
-int x = 0;
-int y = 10;
-int z = 20;
+int r = 0;
+int g = 10;
+int b = 20;
 
 boolean going = true;
 
@@ -35,7 +35,7 @@ void draw() {
     posy = posy + 10;
   }
   
-  background(x, y, z);
+  background(r, g, b);
   // middle line
   stroke(255);
   line(500, 0, 500, 1000);
